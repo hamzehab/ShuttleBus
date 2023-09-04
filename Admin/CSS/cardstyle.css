@@ -1,0 +1,89 @@
+.card {
+  position: relative;
+  font-family: "Orbitron", sans-serif;
+  max-width: 400px;
+  border: 0.1rem rgba(255, 255, 255, 0.2) solid;
+  border-radius: 2rem;
+  position: relative;
+  justify-content: center;
+  width: 25rem;
+  height: 15rem;
+  overflow: hidden;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.card:hover .card-content {
+  left: 0;
+}
+
+.card-content {
+  position: absolute;
+  width: 20rem;
+  height: 80%;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 0px 25px 25px 0px;
+  display: flex;
+  left: -15.5rem;
+  transition: left 0.8s ease;
+  backdrop-filter: blur(10px);
+}
+
+.card-content::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: inherit;
+  filter: blur(10px);
+  border-radius: inherit;
+}
+
+.main-content {
+  flex: 4.2;
+  padding: 1rem;
+  color: white;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  border-radius: 2rem 0 0 2rem;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+.main-title {
+  padding: 0rem 0rem;
+  letter-spacing: 2px;
+}
+
+.card-title {
+  position: relative;
+  flex: 1;
+  text-align: center;
+  display: flex;
+}
+
+.card-text {
+  writing-mode: vertical-rl;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  position: relative;
+  color: rgb(226, 226, 226);
+  margin: 0;
+}
+
+.card-text::after {
+  content: "";
+  background: #333;
+  width: 0.15rem;
+  height: 20rem;
+  position: absolute;
+  top: 50%;
+  left: -10%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}

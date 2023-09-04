@@ -1,0 +1,788 @@
+[21-Feb-2023 17:12:04 UTC] PHP Notice:  Array to string conversion in /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php on line 25
+[21-Feb-2023 18:06:58 UTC] PHP Notice:  Array to string conversion in /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php on line 25
+[21-Feb-2023 18:35:01 UTC] PHP Notice:  Undefined index: studentNumber in /home/wynmane1/public_html/ShuttleBus/Student/StudentAccount.php on line 4
+[21-Feb-2023 18:35:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:400
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(400): mysqli_query(Object(mysqli), 'SELECT * FROM S...')
+#1 /home/wynmane1/public_html/ShuttleBus/Student/StudentAccount.php(4): getStudentInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 400
+[21-Feb-2023 18:35:08 UTC] PHP Notice:  Array to string conversion in /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php on line 25
+[21-Feb-2023 18:35:50 UTC] PHP Notice:  Undefined index: studentNumber in /home/wynmane1/public_html/ShuttleBus/Student/StudentAccount.php on line 4
+[21-Feb-2023 18:35:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:400
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(400): mysqli_query(Object(mysqli), 'SELECT * FROM S...')
+#1 /home/wynmane1/public_html/ShuttleBus/Student/StudentAccount.php(4): getStudentInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 400
+[21-Feb-2023 18:35:55 UTC] PHP Notice:  Array to string conversion in /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php on line 25
+[21-Feb-2023 18:40:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function display_errors() in /home/wynmane1/public_html/ShuttleBus/Student/StudentAccount.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/Student/StudentAccount.php on line 43
+[21-Feb-2023 18:48:08 UTC] PHP Notice:  Array to string conversion in /home/wynmane1/public_html/ShuttleBus/Student/StudentAccount.php on line 44
+[21-Feb-2023 18:58:58 UTC] PHP Notice:  Array to string conversion in /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php on line 25
+[21-Feb-2023 19:12:25 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/wynmane1/public_html/ShuttleBus/functions.php on line 466
+[21-Feb-2023 19:12:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/wynmane1/public_html/ShuttleBus/functions.php on line 466
+[21-Feb-2023 19:12:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@montclair.edu' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:446
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(446): mysqli_query(Object(mysqli), 'SELECT * FROM S...')
+#1 /home/wynmane1/public_html/ShuttleBus/functions.php(410): editStudentInfo()
+#2 /home/wynmane1/public_html/ShuttleBus/Student/StudentAccount.php(2): include('/home/wynmane1/...')
+#3 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 446
+[21-Feb-2023 19:13:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@montclair.edu' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:446
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(446): mysqli_query(Object(mysqli), 'SELECT * FROM S...')
+#1 /home/wynmane1/public_html/ShuttleBus/functions.php(410): editStudentInfo()
+#2 /home/wynmane1/public_html/ShuttleBus/Student/StudentAccount.php(2): include('/home/wynmane1/...')
+#3 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 446
+[21-Feb-2023 19:14:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Testing' in 'where clause' in /home/wynmane1/public_html/ShuttleBus/functions.php:453
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(453): mysqli_query(Object(mysqli), 'SELECT * FROM S...')
+#1 /home/wynmane1/public_html/ShuttleBus/functions.php(410): editStudentInfo()
+#2 /home/wynmane1/public_html/ShuttleBus/Student/StudentAccount.php(2): include('/home/wynmane1/...')
+#3 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 453
+[21-Feb-2023 19:19:22 UTC] PHP Notice:  Array to string conversion in /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php on line 25
+[21-Feb-2023 19:25:06 UTC] PHP Notice:  Array to string conversion in /home/wynmane1/public_html/ShuttleBus/Student/StudentAccount.php on line 44
+[21-Feb-2023 19:28:17 UTC] PHP Notice:  Undefined index: success in /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php on line 25
+[21-Feb-2023 19:28:39 UTC] PHP Notice:  Undefined index: success in /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php on line 25
+[21-Feb-2023 19:29:11 UTC] PHP Notice:  Undefined index: success in /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php on line 25
+[21-Feb-2023 19:29:38 UTC] PHP Notice:  Undefined index: success in /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php on line 25
+[21-Feb-2023 19:29:41 UTC] PHP Notice:  Undefined index: success in /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php on line 25
+[21-Feb-2023 19:29:42 UTC] PHP Notice:  Undefined index: success in /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php on line 25
+[21-Feb-2023 19:29:42 UTC] PHP Notice:  Undefined index: success in /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php on line 25
+[21-Feb-2023 19:30:11 UTC] PHP Notice:  Undefined index: success in /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php on line 25
+[21-Feb-2023 19:30:28 UTC] PHP Notice:  Undefined index: success in /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php on line 25
+[21-Feb-2023 19:31:02 UTC] PHP Notice:  Undefined index: success in /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php on line 25
+[21-Feb-2023 19:32:31 UTC] PHP Notice:  Undefined index: success in /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php on line 25
+[21-Feb-2023 19:45:04 UTC] PHP Notice:  Undefined index: success in /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php on line 25
+[21-Feb-2023 21:02:04 UTC] PHP Notice:  Undefined index: studentNumber in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 4
+[21-Feb-2023 21:02:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:402
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(402): mysqli_query(Object(mysqli), 'SELECT * FROM S...')
+#1 /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php(4): getStudentInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 402
+[21-Feb-2023 22:33:48 UTC] PHP Notice:  Undefined index: studentNumber in /home/wynmane1/public_html/ShuttleBus/Student/StudentAccount.php on line 4
+[21-Feb-2023 22:33:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:402
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(402): mysqli_query(Object(mysqli), 'SELECT * FROM S...')
+#1 /home/wynmane1/public_html/ShuttleBus/Student/StudentAccount.php(4): getStudentInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 402
+[22-Feb-2023 00:07:08 UTC] PHP Notice:  Undefined index: studentNumber in /home/wynmane1/public_html/ShuttleBus/functions.php on line 447
+[22-Feb-2023 00:07:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:402
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(402): mysqli_query(Object(mysqli), 'SELECT * FROM S...')
+#1 /home/wynmane1/public_html/ShuttleBus/functions.php(447): getStudentInfo(NULL)
+#2 /home/wynmane1/public_html/ShuttleBus/functions.php(413): editStudentInfo()
+#3 /home/wynmane1/public_html/ShuttleBus/Student/StudentAccount.php(2): include('/home/wynmane1/...')
+#4 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 402
+[24-Mar-2023 18:43:49 UTC] PHP Notice:  Undefined index: studentNumber in /home/wynmane1/public_html/ShuttleBus/Student/StudentAccount.php on line 4
+[24-Mar-2023 18:43:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:414
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(414): mysqli_query(Object(mysqli), 'SELECT * FROM S...')
+#1 /home/wynmane1/public_html/ShuttleBus/Student/StudentAccount.php(4): getStudentInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 414
+[27-Mar-2023 18:00:59 UTC] PHP Notice:  Undefined variable: row in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 59
+[27-Mar-2023 18:00:59 UTC] PHP Notice:  Undefined variable: row in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 60
+[27-Mar-2023 18:00:59 UTC] PHP Notice:  Undefined variable: row in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:00:59 UTC] PHP Notice:  Undefined variable: row in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 59
+[27-Mar-2023 18:00:59 UTC] PHP Notice:  Undefined variable: row in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 60
+[27-Mar-2023 18:00:59 UTC] PHP Notice:  Undefined variable: row in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:00:59 UTC] PHP Notice:  Undefined variable: row in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 59
+[27-Mar-2023 18:00:59 UTC] PHP Notice:  Undefined variable: row in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 60
+[27-Mar-2023 18:00:59 UTC] PHP Notice:  Undefined variable: row in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:01:40 UTC] PHP Notice:  Undefined variable: row in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 57
+[27-Mar-2023 18:01:40 UTC] PHP Notice:  Undefined variable: row in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 58
+[27-Mar-2023 18:01:40 UTC] PHP Notice:  Undefined variable: row in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 59
+[27-Mar-2023 18:01:40 UTC] PHP Notice:  Undefined variable: row in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 57
+[27-Mar-2023 18:01:40 UTC] PHP Notice:  Undefined variable: row in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 58
+[27-Mar-2023 18:01:40 UTC] PHP Notice:  Undefined variable: row in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 59
+[27-Mar-2023 18:01:40 UTC] PHP Notice:  Undefined variable: row in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 57
+[27-Mar-2023 18:01:40 UTC] PHP Notice:  Undefined variable: row in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 58
+[27-Mar-2023 18:01:40 UTC] PHP Notice:  Undefined variable: row in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 59
+[27-Mar-2023 18:02:08 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 57
+[27-Mar-2023 18:02:08 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 58
+[27-Mar-2023 18:02:08 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 59
+[27-Mar-2023 18:02:08 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 57
+[27-Mar-2023 18:02:08 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 58
+[27-Mar-2023 18:02:08 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 59
+[27-Mar-2023 18:02:08 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 57
+[27-Mar-2023 18:02:08 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 58
+[27-Mar-2023 18:02:08 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 59
+[27-Mar-2023 18:04:09 UTC] PHP Notice:  Undefined index: studentNumber in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 4
+[27-Mar-2023 18:04:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:414
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(414): mysqli_query(Object(mysqli), 'SELECT * FROM S...')
+#1 /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php(4): getStudentInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 414
+[27-Mar-2023 18:07:13 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 115
+[27-Mar-2023 18:07:33 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 59
+[27-Mar-2023 18:07:33 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 60
+[27-Mar-2023 18:07:33 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:07:33 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 59
+[27-Mar-2023 18:07:33 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 60
+[27-Mar-2023 18:07:33 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:07:33 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 59
+[27-Mar-2023 18:07:33 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 60
+[27-Mar-2023 18:07:33 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:07:55 UTC] PHP Notice:  Undefined variable: print_r in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 43
+[27-Mar-2023 18:07:55 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 43
+[27-Mar-2023 18:08:06 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:08:06 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 62
+[27-Mar-2023 18:08:06 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 63
+[27-Mar-2023 18:08:06 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:08:06 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 62
+[27-Mar-2023 18:08:06 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 63
+[27-Mar-2023 18:08:06 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:08:06 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 62
+[27-Mar-2023 18:08:06 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 63
+[27-Mar-2023 18:08:39 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:08:39 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 62
+[27-Mar-2023 18:08:39 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 63
+[27-Mar-2023 18:08:39 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:08:39 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 62
+[27-Mar-2023 18:08:39 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 63
+[27-Mar-2023 18:08:39 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:08:39 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 62
+[27-Mar-2023 18:08:39 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 63
+[27-Mar-2023 18:10:35 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:10:35 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 62
+[27-Mar-2023 18:10:35 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 63
+[27-Mar-2023 18:10:35 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:10:35 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 62
+[27-Mar-2023 18:10:35 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 63
+[27-Mar-2023 18:10:35 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:10:35 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 62
+[27-Mar-2023 18:10:35 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 63
+[27-Mar-2023 18:11:51 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:11:51 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 62
+[27-Mar-2023 18:11:51 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 63
+[27-Mar-2023 18:11:51 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:11:51 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 62
+[27-Mar-2023 18:11:51 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 63
+[27-Mar-2023 18:11:51 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:11:51 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 62
+[27-Mar-2023 18:11:51 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 63
+[27-Mar-2023 18:11:51 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:11:51 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 62
+[27-Mar-2023 18:11:51 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 63
+[27-Mar-2023 18:11:51 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:11:51 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 62
+[27-Mar-2023 18:11:51 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 63
+[27-Mar-2023 18:11:51 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:11:51 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 62
+[27-Mar-2023 18:11:51 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 63
+[27-Mar-2023 18:13:27 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:13:27 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 62
+[27-Mar-2023 18:13:27 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 63
+[27-Mar-2023 18:13:27 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:13:27 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 62
+[27-Mar-2023 18:13:27 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 63
+[27-Mar-2023 18:13:27 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:13:27 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 62
+[27-Mar-2023 18:13:27 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 63
+[27-Mar-2023 18:13:27 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:13:27 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 62
+[27-Mar-2023 18:13:27 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 63
+[27-Mar-2023 18:13:27 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:13:27 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 62
+[27-Mar-2023 18:13:27 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 63
+[27-Mar-2023 18:13:27 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:13:27 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 62
+[27-Mar-2023 18:13:27 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 63
+[27-Mar-2023 18:15:23 UTC] PHP Warning:  Use of undefined constant MYSQL_ASSOC - assumed 'MYSQL_ASSOC' (this will throw an Error in a future version of PHP) in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 41
+[27-Mar-2023 18:15:23 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be int, string given in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 41
+[27-Mar-2023 18:15:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 57
+[27-Mar-2023 18:15:39 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 59
+[27-Mar-2023 18:15:39 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 60
+[27-Mar-2023 18:15:39 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:15:39 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 59
+[27-Mar-2023 18:15:39 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 60
+[27-Mar-2023 18:15:39 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:15:39 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 59
+[27-Mar-2023 18:15:39 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 60
+[27-Mar-2023 18:15:39 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:15:58 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 60
+[27-Mar-2023 18:15:58 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:15:58 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 62
+[27-Mar-2023 18:15:58 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 60
+[27-Mar-2023 18:15:58 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:15:58 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 62
+[27-Mar-2023 18:15:58 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 60
+[27-Mar-2023 18:15:58 UTC] PHP Warning:  Illegal string offset 'Stops' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 61
+[27-Mar-2023 18:15:58 UTC] PHP Warning:  Illegal string offset 'Schedule' in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 62
+[27-Mar-2023 18:18:41 UTC] PHP Notice:  Undefined variable: row in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 42
+[27-Mar-2023 18:18:41 UTC] PHP Fatal error:  Uncaught Error: Unsupported operand types in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 42
+[28-Mar-2023 15:45:10 UTC] PHP Notice:  Undefined index: studentNumber in /home/wynmane1/public_html/ShuttleBus/Student/StudentAccount.php on line 4
+[28-Mar-2023 15:45:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:425
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(425): mysqli_query(Object(mysqli), 'SELECT * FROM S...')
+#1 /home/wynmane1/public_html/ShuttleBus/Student/StudentAccount.php(4): getStudentInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 425
+[01-Apr-2023 17:18:05 UTC] PHP Notice:  Undefined index: studentNumber in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 4
+[01-Apr-2023 17:18:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:425
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(425): mysqli_query(Object(mysqli), 'SELECT * FROM S...')
+#1 /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php(4): getStudentInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 425
+[01-Apr-2023 20:22:55 UTC] PHP Notice:  Undefined index: studentNumber in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 4
+[01-Apr-2023 20:22:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:425
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(425): mysqli_query(Object(mysqli), 'SELECT * FROM S...')
+#1 /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php(4): getStudentInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 425
+[04-Apr-2023 19:17:28 UTC] PHP Notice:  Undefined index: studentNumber in /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php on line 4
+[04-Apr-2023 19:17:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:425
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(425): mysqli_query(Object(mysqli), 'SELECT * FROM S...')
+#1 /home/wynmane1/public_html/ShuttleBus/Student/StudentHome.php(4): getStudentInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 425
+[04-Apr-2023 19:17:57 UTC] PHP Notice:  Undefined index: studentNumber in /home/wynmane1/public_html/ShuttleBus/Student/StudentAccount.php on line 4
+[04-Apr-2023 19:17:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:425
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(425): mysqli_query(Object(mysqli), 'SELECT * FROM S...')
+#1 /home/wynmane1/public_html/ShuttleBus/Student/StudentAccount.php(4): getStudentInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 425
+[11-Apr-2023 19:27:06 UTC] PHP Fatal error:  Cannot redeclare login() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:71) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 192
+[11-Apr-2023 19:42:21 UTC] PHP Fatal error:  Cannot redeclare login() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:71) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 192
+[11-Apr-2023 21:21:50 UTC] PHP Fatal error:  Cannot redeclare login() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:71) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 192
+[11-Apr-2023 21:21:52 UTC] PHP Fatal error:  Cannot redeclare login() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:71) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 192
+[11-Apr-2023 21:21:52 UTC] PHP Fatal error:  Cannot redeclare login() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:71) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 192
+[11-Apr-2023 21:39:49 UTC] PHP Fatal error:  Cannot redeclare login() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:71) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 192
+[11-Apr-2023 21:39:57 UTC] PHP Fatal error:  Cannot redeclare login() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:71) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 192
+[11-Apr-2023 22:16:23 UTC] PHP Fatal error:  Cannot redeclare login() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:71) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 192
+[11-Apr-2023 22:16:26 UTC] PHP Fatal error:  Cannot redeclare login() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:71) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 192
+[11-Apr-2023 22:16:30 UTC] PHP Fatal error:  Cannot redeclare login() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:71) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 192
+[11-Apr-2023 22:19:07 UTC] PHP Fatal error:  Cannot redeclare login() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:71) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 192
+[11-Apr-2023 22:19:09 UTC] PHP Fatal error:  Cannot redeclare login() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:71) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 192
+[12-Apr-2023 03:46:48 UTC] PHP Fatal error:  Cannot redeclare login() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:71) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 192
+[12-Apr-2023 03:46:52 UTC] PHP Fatal error:  Cannot redeclare login() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:71) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 192
+[13-Apr-2023 03:27:22 UTC] PHP Fatal error:  Cannot redeclare login() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:71) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 192
+[13-Apr-2023 15:49:55 UTC] PHP Fatal error:  Cannot redeclare login() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:71) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 192
+[14-Apr-2023 02:01:25 UTC] PHP Fatal error:  Cannot redeclare login() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:71) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 192
+[14-Apr-2023 16:14:11 UTC] PHP Fatal error:  Cannot redeclare login() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:71) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 192
+[14-Apr-2023 16:49:37 UTC] PHP Fatal error:  Cannot redeclare login() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:71) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 192
+[14-Apr-2023 16:49:41 UTC] PHP Fatal error:  Cannot redeclare login() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:71) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 192
+[14-Apr-2023 16:49:46 UTC] PHP Fatal error:  Cannot redeclare login() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:71) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 192
+[16-Apr-2023 14:44:59 UTC] PHP Notice:  Undefined index: title in /home/wynmane1/public_html/ShuttleBus/functions.php on line 340
+[16-Apr-2023 14:44:59 UTC] PHP Notice:  Undefined index: description in /home/wynmane1/public_html/ShuttleBus/functions.php on line 341
+[16-Apr-2023 14:44:59 UTC] PHP Notice:  Undefined index: location in /home/wynmane1/public_html/ShuttleBus/functions.php on line 342
+[16-Apr-2023 14:44:59 UTC] PHP Notice:  Undefined index: urgency in /home/wynmane1/public_html/ShuttleBus/functions.php on line 343
+[16-Apr-2023 14:44:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'urgency' at row 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:366
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(366): mysqli_query(Object(mysqli), 'INSERT INTO Mai...')
+#1 /home/wynmane1/public_html/ShuttleBus/functions.php(346): insertRequest('', '', '', '')
+#2 /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php(1): include('/home/wynmane1/...')
+#3 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 366
+[16-Apr-2023 14:48:48 UTC] PHP Notice:  Undefined index: title in /home/wynmane1/public_html/ShuttleBus/functions.php on line 340
+[16-Apr-2023 14:48:48 UTC] PHP Notice:  Undefined index: description in /home/wynmane1/public_html/ShuttleBus/functions.php on line 341
+[16-Apr-2023 14:48:48 UTC] PHP Notice:  Undefined index: location in /home/wynmane1/public_html/ShuttleBus/functions.php on line 342
+[16-Apr-2023 14:48:48 UTC] PHP Notice:  Undefined index: urgency in /home/wynmane1/public_html/ShuttleBus/functions.php on line 343
+[16-Apr-2023 14:48:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'urgency' at row 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:366
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(366): mysqli_query(Object(mysqli), 'INSERT INTO Mai...')
+#1 /home/wynmane1/public_html/ShuttleBus/functions.php(346): insertRequest('', '', '', '')
+#2 /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php(1): include('/home/wynmane1/...')
+#3 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 366
+[16-Apr-2023 14:53:14 UTC] PHP Notice:  Undefined index: title in /home/wynmane1/public_html/ShuttleBus/functions.php on line 340
+[16-Apr-2023 14:53:14 UTC] PHP Notice:  Undefined index: description in /home/wynmane1/public_html/ShuttleBus/functions.php on line 341
+[16-Apr-2023 14:53:14 UTC] PHP Notice:  Undefined index: location in /home/wynmane1/public_html/ShuttleBus/functions.php on line 342
+[16-Apr-2023 14:53:14 UTC] PHP Notice:  Undefined index: urgency in /home/wynmane1/public_html/ShuttleBus/functions.php on line 343
+[16-Apr-2023 14:53:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'urgency' at row 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:366
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(366): mysqli_query(Object(mysqli), 'INSERT INTO Mai...')
+#1 /home/wynmane1/public_html/ShuttleBus/functions.php(346): insertRequest('', '', '', '')
+#2 /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php(1): include('/home/wynmane1/...')
+#3 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 366
+[16-Apr-2023 14:53:24 UTC] PHP Notice:  Undefined index: title in /home/wynmane1/public_html/ShuttleBus/functions.php on line 340
+[16-Apr-2023 14:53:24 UTC] PHP Notice:  Undefined index: description in /home/wynmane1/public_html/ShuttleBus/functions.php on line 341
+[16-Apr-2023 14:53:24 UTC] PHP Notice:  Undefined index: location in /home/wynmane1/public_html/ShuttleBus/functions.php on line 342
+[16-Apr-2023 14:53:24 UTC] PHP Notice:  Undefined index: urgency in /home/wynmane1/public_html/ShuttleBus/functions.php on line 343
+[16-Apr-2023 14:53:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'urgency' at row 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:366
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(366): mysqli_query(Object(mysqli), 'INSERT INTO Mai...')
+#1 /home/wynmane1/public_html/ShuttleBus/functions.php(346): insertRequest('', '', '', '')
+#2 /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php(1): include('/home/wynmane1/...')
+#3 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 366
+[16-Apr-2023 15:12:45 UTC] PHP Notice:  Undefined index: title in /home/wynmane1/public_html/ShuttleBus/functions.php on line 340
+[16-Apr-2023 15:12:45 UTC] PHP Notice:  Undefined index: description in /home/wynmane1/public_html/ShuttleBus/functions.php on line 341
+[16-Apr-2023 15:12:45 UTC] PHP Notice:  Undefined index: location in /home/wynmane1/public_html/ShuttleBus/functions.php on line 342
+[16-Apr-2023 15:12:45 UTC] PHP Notice:  Undefined index: urgency in /home/wynmane1/public_html/ShuttleBus/functions.php on line 343
+[16-Apr-2023 15:12:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'urgency' at row 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:366
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(366): mysqli_query(Object(mysqli), 'INSERT INTO Mai...')
+#1 /home/wynmane1/public_html/ShuttleBus/functions.php(346): insertRequest('', '', '', '')
+#2 /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php(1): include('/home/wynmane1/...')
+#3 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 366
+[16-Apr-2023 20:43:28 UTC] PHP Notice:  Undefined index: title in /home/wynmane1/public_html/ShuttleBus/functions.php on line 340
+[16-Apr-2023 20:43:28 UTC] PHP Notice:  Undefined index: description in /home/wynmane1/public_html/ShuttleBus/functions.php on line 341
+[16-Apr-2023 20:43:28 UTC] PHP Notice:  Undefined index: location in /home/wynmane1/public_html/ShuttleBus/functions.php on line 342
+[16-Apr-2023 20:43:28 UTC] PHP Notice:  Undefined index: urgency in /home/wynmane1/public_html/ShuttleBus/functions.php on line 343
+[16-Apr-2023 20:43:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'urgency' at row 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:366
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(366): mysqli_query(Object(mysqli), 'INSERT INTO Mai...')
+#1 /home/wynmane1/public_html/ShuttleBus/functions.php(346): insertRequest('', '', '', '')
+#2 /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php(1): include('/home/wynmane1/...')
+#3 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 366
+[16-Apr-2023 20:44:17 UTC] PHP Notice:  Undefined index: title in /home/wynmane1/public_html/ShuttleBus/functions.php on line 340
+[16-Apr-2023 20:44:17 UTC] PHP Notice:  Undefined index: description in /home/wynmane1/public_html/ShuttleBus/functions.php on line 341
+[16-Apr-2023 20:44:17 UTC] PHP Notice:  Undefined index: location in /home/wynmane1/public_html/ShuttleBus/functions.php on line 342
+[16-Apr-2023 20:44:17 UTC] PHP Notice:  Undefined index: urgency in /home/wynmane1/public_html/ShuttleBus/functions.php on line 343
+[16-Apr-2023 20:44:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'urgency' at row 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:366
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(366): mysqli_query(Object(mysqli), 'INSERT INTO Mai...')
+#1 /home/wynmane1/public_html/ShuttleBus/functions.php(346): insertRequest('', '', '', '')
+#2 /home/wynmane1/public_html/ShuttleBus/Student/StudentRegistration.php(1): include('/home/wynmane1/...')
+#3 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 366
+[16-Apr-2023 21:13:24 UTC] PHP Notice:  Undefined index: title in /home/wynmane1/public_html/ShuttleBus/functions.php on line 340
+[16-Apr-2023 21:13:24 UTC] PHP Notice:  Undefined index: description in /home/wynmane1/public_html/ShuttleBus/functions.php on line 341
+[16-Apr-2023 21:13:24 UTC] PHP Notice:  Undefined index: location in /home/wynmane1/public_html/ShuttleBus/functions.php on line 342
+[16-Apr-2023 21:13:24 UTC] PHP Notice:  Undefined index: urgency in /home/wynmane1/public_html/ShuttleBus/functions.php on line 343
+[16-Apr-2023 21:13:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'urgency' at row 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:366
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(366): mysqli_query(Object(mysqli), 'INSERT INTO Mai...')
+#1 /home/wynmane1/public_html/ShuttleBus/functions.php(346): insertRequest('', '', '', '')
+#2 /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php(1): include('/home/wynmane1/...')
+#3 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 366
+[16-Apr-2023 21:15:17 UTC] PHP Notice:  Undefined index: title in /home/wynmane1/public_html/ShuttleBus/functions.php on line 340
+[16-Apr-2023 21:15:17 UTC] PHP Notice:  Undefined index: description in /home/wynmane1/public_html/ShuttleBus/functions.php on line 341
+[16-Apr-2023 21:15:17 UTC] PHP Notice:  Undefined index: location in /home/wynmane1/public_html/ShuttleBus/functions.php on line 342
+[16-Apr-2023 21:15:17 UTC] PHP Notice:  Undefined index: urgency in /home/wynmane1/public_html/ShuttleBus/functions.php on line 343
+[16-Apr-2023 21:15:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'urgency' at row 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:366
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(366): mysqli_query(Object(mysqli), 'INSERT INTO Mai...')
+#1 /home/wynmane1/public_html/ShuttleBus/functions.php(346): insertRequest('', '', '', '')
+#2 /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php(1): include('/home/wynmane1/...')
+#3 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 366
+[16-Apr-2023 21:19:00 UTC] PHP Notice:  Undefined index: title in /home/wynmane1/public_html/ShuttleBus/functions.php on line 340
+[16-Apr-2023 21:19:00 UTC] PHP Notice:  Undefined index: description in /home/wynmane1/public_html/ShuttleBus/functions.php on line 341
+[16-Apr-2023 21:19:00 UTC] PHP Notice:  Undefined index: location in /home/wynmane1/public_html/ShuttleBus/functions.php on line 342
+[16-Apr-2023 21:19:00 UTC] PHP Notice:  Undefined index: urgency in /home/wynmane1/public_html/ShuttleBus/functions.php on line 343
+[16-Apr-2023 21:19:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'urgency' at row 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:366
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(366): mysqli_query(Object(mysqli), 'INSERT INTO Mai...')
+#1 /home/wynmane1/public_html/ShuttleBus/functions.php(346): insertRequest('', '', '', '')
+#2 /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php(1): include('/home/wynmane1/...')
+#3 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 366
+[16-Apr-2023 21:23:08 UTC] PHP Notice:  Undefined index: title in /home/wynmane1/public_html/ShuttleBus/functions.php on line 340
+[16-Apr-2023 21:23:08 UTC] PHP Notice:  Undefined index: description in /home/wynmane1/public_html/ShuttleBus/functions.php on line 341
+[16-Apr-2023 21:23:08 UTC] PHP Notice:  Undefined index: location in /home/wynmane1/public_html/ShuttleBus/functions.php on line 342
+[16-Apr-2023 21:23:08 UTC] PHP Notice:  Undefined index: urgency in /home/wynmane1/public_html/ShuttleBus/functions.php on line 343
+[16-Apr-2023 21:23:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'urgency' at row 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:366
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(366): mysqli_query(Object(mysqli), 'INSERT INTO Mai...')
+#1 /home/wynmane1/public_html/ShuttleBus/functions.php(346): insertRequest('', '', '', '')
+#2 /home/wynmane1/public_html/ShuttleBus/Student/StudentLogin.php(1): include('/home/wynmane1/...')
+#3 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 366
+[16-Apr-2023 21:39:18 UTC] PHP Notice:  Undefined variable: student in /home/wynmane1/public_html/ShuttleBus/functions.php on line 614
+[16-Apr-2023 21:54:38 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php on line 4
+[16-Apr-2023 21:54:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:525
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(525): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 525
+[16-Apr-2023 21:56:11 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php on line 4
+[16-Apr-2023 21:56:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:525
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(525): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 525
+[16-Apr-2023 22:08:43 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 4
+[16-Apr-2023 22:08:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:525
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(525): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserHome.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 525
+[16-Apr-2023 22:16:34 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php on line 4
+[16-Apr-2023 22:16:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:525
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(525): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 525
+[16-Apr-2023 22:52:55 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php on line 4
+[16-Apr-2023 22:52:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:525
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(525): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 525
+[16-Apr-2023 22:53:18 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 4
+[16-Apr-2023 22:53:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:525
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(525): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/announcements.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 525
+[16-Apr-2023 23:28:38 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/wynmane1/public_html/ShuttleBus/functions.php on line 2
+[16-Apr-2023 23:28:38 UTC] PHP Notice:  Undefined variable: _SESSION in /home/wynmane1/public_html/ShuttleBus/functions.php on line 534
+[17-Apr-2023 00:20:35 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 4
+[17-Apr-2023 00:20:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:525
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(525): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserHome.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 525
+[17-Apr-2023 00:21:18 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 4
+[17-Apr-2023 00:21:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:525
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(525): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserHome.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 525
+[17-Apr-2023 01:20:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 57
+[17-Apr-2023 01:20:01 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 79
+[17-Apr-2023 01:20:01 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 81
+[17-Apr-2023 01:20:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 49
+[17-Apr-2023 01:20:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 51
+[17-Apr-2023 01:20:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 57
+[17-Apr-2023 01:20:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 79
+[17-Apr-2023 01:20:27 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 81
+[17-Apr-2023 01:20:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 57
+[17-Apr-2023 01:20:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 79
+[17-Apr-2023 01:20:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 81
+[17-Apr-2023 01:20:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 52
+[17-Apr-2023 01:20:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 54
+[17-Apr-2023 01:32:30 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/wynmane1/public_html/ShuttleBus/functions.php on line 2
+[17-Apr-2023 01:32:30 UTC] PHP Notice:  Undefined variable: _SESSION in /home/wynmane1/public_html/ShuttleBus/functions.php on line 534
+[17-Apr-2023 01:32:31 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/wynmane1/public_html/ShuttleBus/functions.php on line 2
+[17-Apr-2023 01:32:31 UTC] PHP Notice:  Undefined variable: _SESSION in /home/wynmane1/public_html/ShuttleBus/functions.php on line 534
+[17-Apr-2023 01:32:43 UTC] PHP Fatal error:  Cannot redeclare register() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:27) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 61
+[17-Apr-2023 01:32:56 UTC] PHP Fatal error:  Cannot redeclare register() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:27) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 61
+[17-Apr-2023 01:36:27 UTC] PHP Warning:  date() expects at most 2 parameters, 4 given in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 75
+[17-Apr-2023 01:36:27 UTC] PHP Warning:  date() expects at most 2 parameters, 4 given in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 75
+[17-Apr-2023 01:36:27 UTC] PHP Warning:  date() expects at most 2 parameters, 4 given in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 75
+[17-Apr-2023 01:36:27 UTC] PHP Warning:  date() expects at most 2 parameters, 4 given in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 75
+[17-Apr-2023 01:36:27 UTC] PHP Warning:  date() expects at most 2 parameters, 4 given in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 75
+[17-Apr-2023 01:36:27 UTC] PHP Warning:  date() expects at most 2 parameters, 4 given in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 75
+[17-Apr-2023 01:41:44 UTC] PHP Fatal error:  Uncaught Exception: DateTimeZone::__construct(): Unknown or bad timezone (America/New York) in /home/wynmane1/public_html/ShuttleBus/User/announcements.php:76
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/User/announcements.php(76): DateTimeZone->__construct('America/New Yor...')
+#1 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 76
+[17-Apr-2023 01:41:57 UTC] PHP Fatal error:  Uncaught Exception: DateTimeZone::__construct(): Unknown or bad timezone (America/New York) in /home/wynmane1/public_html/ShuttleBus/User/announcements.php:76
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/User/announcements.php(76): DateTimeZone->__construct('America/New Yor...')
+#1 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 76
+[17-Apr-2023 01:42:33 UTC] PHP Fatal error:  Uncaught Exception: DateTimeZone::__construct(): Unknown or bad timezone (America/New York) in /home/wynmane1/public_html/ShuttleBus/User/announcements.php:76
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/User/announcements.php(76): DateTimeZone->__construct('America/New Yor...')
+#1 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 76
+[17-Apr-2023 01:42:34 UTC] PHP Fatal error:  Uncaught Exception: DateTimeZone::__construct(): Unknown or bad timezone (America/New York) in /home/wynmane1/public_html/ShuttleBus/User/announcements.php:76
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/User/announcements.php(76): DateTimeZone->__construct('America/New Yor...')
+#1 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 76
+[17-Apr-2023 01:42:34 UTC] PHP Fatal error:  Uncaught Exception: DateTimeZone::__construct(): Unknown or bad timezone (America/New York) in /home/wynmane1/public_html/ShuttleBus/User/announcements.php:76
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/User/announcements.php(76): DateTimeZone->__construct('America/New Yor...')
+#1 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 76
+[17-Apr-2023 01:45:12 UTC] PHP Notice:  Undefined variable: offset in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 67
+[17-Apr-2023 01:45:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/User/announcements.php:68
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/User/announcements.php(68): mysqli_query(Object(mysqli), 'SELECT * FROM D...')
+#1 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 68
+[17-Apr-2023 01:45:47 UTC] PHP Notice:  Undefined variable: offset in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 68
+[17-Apr-2023 01:45:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/User/announcements.php:69
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/User/announcements.php(69): mysqli_query(Object(mysqli), 'SELECT * FROM D...')
+#1 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 69
+[17-Apr-2023 01:49:51 UTC] PHP Notice:  Undefined variable: conn in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 91
+[17-Apr-2023 01:49:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 91
+[17-Apr-2023 01:49:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 92
+[17-Apr-2023 01:50:52 UTC] PHP Parse error:  syntax error, unexpected 'mysqli_close' (T_STRING), expecting ',' or ';' in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 102
+[17-Apr-2023 01:50:54 UTC] PHP Parse error:  syntax error, unexpected 'mysqli_close' (T_STRING), expecting ',' or ';' in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 102
+[17-Apr-2023 01:54:50 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 95
+[17-Apr-2023 01:54:52 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 95
+[17-Apr-2023 01:54:55 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 95
+[17-Apr-2023 01:54:57 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/wynmane1/public_html/ShuttleBus/User/announcements.php on line 95
+[17-Apr-2023 02:27:46 UTC] PHP Notice:  Undefined variable: offset in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 93
+[17-Apr-2023 02:27:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php:94
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/User/UserHome.php(94): mysqli_query(Object(mysqli), 'SELECT * FROM A...')
+#1 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 94
+[17-Apr-2023 02:29:08 UTC] PHP Notice:  Undefined variable: offset in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 93
+[17-Apr-2023 02:29:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php:94
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/User/UserHome.php(94): mysqli_query(Object(mysqli), 'SELECT * FROM A...')
+#1 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 94
+[17-Apr-2023 02:29:09 UTC] PHP Notice:  Undefined variable: offset in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 93
+[17-Apr-2023 02:29:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php:94
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/User/UserHome.php(94): mysqli_query(Object(mysqli), 'SELECT * FROM A...')
+#1 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 94
+[17-Apr-2023 02:29:31 UTC] PHP Notice:  Undefined variable: offset in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 93
+[17-Apr-2023 02:29:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php:94
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/User/UserHome.php(94): mysqli_query(Object(mysqli), 'SELECT * FROM A...')
+#1 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 94
+[17-Apr-2023 02:29:47 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 102
+[17-Apr-2023 02:29:47 UTC] PHP Warning:  Illegal string offset 'CurrentPosition' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 104
+[17-Apr-2023 02:29:47 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 102
+[17-Apr-2023 02:29:47 UTC] PHP Warning:  Illegal string offset 'CurrentPosition' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 104
+[17-Apr-2023 02:29:47 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 102
+[17-Apr-2023 02:29:47 UTC] PHP Warning:  Illegal string offset 'CurrentPosition' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 104
+[17-Apr-2023 02:30:09 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 102
+[17-Apr-2023 02:30:09 UTC] PHP Warning:  Illegal string offset 'CurrentPosition' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 104
+[17-Apr-2023 02:30:09 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 102
+[17-Apr-2023 02:30:09 UTC] PHP Warning:  Illegal string offset 'CurrentPosition' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 104
+[17-Apr-2023 02:30:09 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 102
+[17-Apr-2023 02:30:09 UTC] PHP Warning:  Illegal string offset 'CurrentPosition' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 104
+[17-Apr-2023 02:30:09 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 102
+[17-Apr-2023 02:30:09 UTC] PHP Warning:  Illegal string offset 'CurrentPosition' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 104
+[17-Apr-2023 02:30:09 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 102
+[17-Apr-2023 02:30:09 UTC] PHP Warning:  Illegal string offset 'CurrentPosition' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 104
+[17-Apr-2023 02:30:09 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 102
+[17-Apr-2023 02:30:09 UTC] PHP Warning:  Illegal string offset 'CurrentPosition' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 104
+[17-Apr-2023 02:30:09 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 102
+[17-Apr-2023 02:30:10 UTC] PHP Warning:  Illegal string offset 'CurrentPosition' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 104
+[17-Apr-2023 02:30:10 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 102
+[17-Apr-2023 02:30:10 UTC] PHP Warning:  Illegal string offset 'CurrentPosition' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 104
+[17-Apr-2023 02:30:10 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 102
+[17-Apr-2023 02:30:10 UTC] PHP Warning:  Illegal string offset 'CurrentPosition' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 104
+[17-Apr-2023 02:30:10 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 102
+[17-Apr-2023 02:30:10 UTC] PHP Warning:  Illegal string offset 'CurrentPosition' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 104
+[17-Apr-2023 02:30:10 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 102
+[17-Apr-2023 02:30:10 UTC] PHP Warning:  Illegal string offset 'CurrentPosition' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 104
+[17-Apr-2023 02:30:10 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 102
+[17-Apr-2023 02:30:10 UTC] PHP Warning:  Illegal string offset 'CurrentPosition' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 104
+[17-Apr-2023 02:31:29 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 102
+[17-Apr-2023 02:31:29 UTC] PHP Warning:  Illegal string offset 'CurrentPosition' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 104
+[17-Apr-2023 02:31:29 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 102
+[17-Apr-2023 02:31:29 UTC] PHP Warning:  Illegal string offset 'CurrentPosition' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 104
+[17-Apr-2023 02:31:29 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 102
+[17-Apr-2023 02:31:29 UTC] PHP Warning:  Illegal string offset 'CurrentPosition' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 104
+[17-Apr-2023 02:31:54 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 104
+[17-Apr-2023 02:31:54 UTC] PHP Warning:  Illegal string offset 'CurrentPosition' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 106
+[17-Apr-2023 02:31:54 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 104
+[17-Apr-2023 02:31:54 UTC] PHP Warning:  Illegal string offset 'CurrentPosition' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 106
+[17-Apr-2023 02:31:54 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 104
+[17-Apr-2023 02:31:54 UTC] PHP Warning:  Illegal string offset 'CurrentPosition' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 106
+[17-Apr-2023 02:32:51 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 104
+[17-Apr-2023 02:32:51 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 105
+[17-Apr-2023 02:32:51 UTC] PHP Warning:  Illegal string offset 'CurrentPosition' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 107
+[17-Apr-2023 02:32:51 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 104
+[17-Apr-2023 02:32:51 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 105
+[17-Apr-2023 02:32:51 UTC] PHP Warning:  Illegal string offset 'CurrentPosition' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 107
+[17-Apr-2023 02:32:51 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 104
+[17-Apr-2023 02:32:51 UTC] PHP Warning:  Illegal string offset 'RouteName' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 105
+[17-Apr-2023 02:32:51 UTC] PHP Warning:  Illegal string offset 'CurrentPosition' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 107
+[17-Apr-2023 02:53:36 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 121
+[17-Apr-2023 02:53:38 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';' in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 121
+[17-Apr-2023 04:01:30 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php on line 4
+[17-Apr-2023 04:01:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:525
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(525): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 525
+[17-Apr-2023 04:12:14 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php on line 4
+[17-Apr-2023 04:12:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:525
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(525): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 525
+[17-Apr-2023 04:13:52 UTC] PHP Notice:  Undefined index: password_1 in /home/wynmane1/public_html/ShuttleBus/functions.php on line 414
+[17-Apr-2023 04:14:11 UTC] PHP Notice:  Undefined index: password_1 in /home/wynmane1/public_html/ShuttleBus/functions.php on line 414
+[17-Apr-2023 04:14:40 UTC] PHP Notice:  Undefined index: password_1 in /home/wynmane1/public_html/ShuttleBus/functions.php on line 414
+[17-Apr-2023 14:15:01 UTC] PHP Fatal error:  Cannot redeclare insertRequest() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:355) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 640
+[17-Apr-2023 14:15:01 UTC] PHP Fatal error:  Cannot redeclare insertRequest() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:355) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 640
+[17-Apr-2023 14:15:05 UTC] PHP Fatal error:  Cannot redeclare insertRequest() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:355) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 640
+[17-Apr-2023 14:15:39 UTC] PHP Fatal error:  Cannot redeclare insertRequest() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:355) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 640
+[17-Apr-2023 14:15:42 UTC] PHP Fatal error:  Cannot redeclare insertRequest() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:355) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 640
+[17-Apr-2023 14:15:43 UTC] PHP Fatal error:  Cannot redeclare insertRequest() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:355) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 640
+[17-Apr-2023 14:15:45 UTC] PHP Fatal error:  Cannot redeclare insertRequest() (previously declared in /home/wynmane1/public_html/ShuttleBus/functions.php:355) in /home/wynmane1/public_html/ShuttleBus/functions.php on line 640
+[17-Apr-2023 20:07:53 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php on line 4
+[17-Apr-2023 20:07:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:525
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(525): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 525
+[17-Apr-2023 20:09:11 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php on line 4
+[17-Apr-2023 20:09:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:525
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(525): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 525
+[17-Apr-2023 20:12:45 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php on line 4
+[17-Apr-2023 20:12:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:525
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(525): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 525
+[18-Apr-2023 16:30:50 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 4
+[18-Apr-2023 16:30:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:525
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(525): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserHome.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 525
+[19-Apr-2023 03:56:19 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php on line 4
+[19-Apr-2023 03:56:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:673
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(673): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 673
+[19-Apr-2023 03:57:00 UTC] PHP Warning:  mysqli_num_rows() expects exactly 1 parameter, 2 given in /home/wynmane1/public_html/ShuttleBus/functions.php on line 618
+[19-Apr-2023 03:57:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/wynmane1/public_html/ShuttleBus/functions.php on line 619
+[19-Apr-2023 03:57:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/wynmane1/public_html/ShuttleBus/functions.php on line 622
+[19-Apr-2023 03:57:43 UTC] PHP Warning:  mysqli_num_rows() expects exactly 1 parameter, 2 given in /home/wynmane1/public_html/ShuttleBus/functions.php on line 618
+[19-Apr-2023 03:57:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/wynmane1/public_html/ShuttleBus/functions.php on line 619
+[19-Apr-2023 03:57:43 UTC] PHP Warning:  mysqli_num_rows() expects exactly 1 parameter, 2 given in /home/wynmane1/public_html/ShuttleBus/functions.php on line 622
+[19-Apr-2023 03:57:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/wynmane1/public_html/ShuttleBus/functions.php on line 623
+[19-Apr-2023 03:59:46 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/wynmane1/public_html/ShuttleBus/functions.php on line 831
+[19-Apr-2023 03:59:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/wynmane1/public_html/ShuttleBus/functions.php on line 831
+[19-Apr-2023 03:59:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/wynmane1/public_html/ShuttleBus/functions.php on line 831
+[19-Apr-2023 03:59:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/wynmane1/public_html/ShuttleBus/functions.php on line 804
+[19-Apr-2023 03:59:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/wynmane1/public_html/ShuttleBus/functions.php on line 804
+[19-Apr-2023 04:00:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/wynmane1/public_html/ShuttleBus/functions.php on line 804
+[19-Apr-2023 04:01:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/wynmane1/public_html/ShuttleBus/functions.php on line 804
+[19-Apr-2023 04:50:43 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/wynmane1/public_html/ShuttleBus/functions.php on line 617
+[19-Apr-2023 04:50:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/wynmane1/public_html/ShuttleBus/functions.php on line 618
+[19-Apr-2023 04:50:43 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/wynmane1/public_html/ShuttleBus/functions.php on line 621
+[19-Apr-2023 04:50:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/wynmane1/public_html/ShuttleBus/functions.php on line 622
+[19-Apr-2023 06:34:51 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php on line 4
+[19-Apr-2023 06:34:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:638
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(638): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 638
+[19-Apr-2023 14:06:32 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 4
+[19-Apr-2023 14:06:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:638
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(638): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserHome.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 638
+[25-Apr-2023 15:25:32 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 4
+[25-Apr-2023 15:25:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:638
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(638): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserHome.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 638
+[27-Apr-2023 13:38:04 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 4
+[27-Apr-2023 13:38:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:638
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(638): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserHome.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 638
+[29-Apr-2023 17:56:58 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php on line 4
+[29-Apr-2023 17:56:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:638
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(638): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 638
+[29-Apr-2023 18:10:09 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php on line 4
+[29-Apr-2023 18:10:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:638
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(638): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 638
+[30-Apr-2023 14:51:41 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php on line 4
+[30-Apr-2023 14:51:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:638
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(638): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 638
+[02-May-2023 17:01:11 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserMaintenanceRequest.php on line 4
+[02-May-2023 17:01:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:638
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(638): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserMaintenanceRequest.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 638
+[07-May-2023 02:24:29 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php on line 4
+[07-May-2023 02:24:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:638
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(638): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 638
+[07-May-2023 20:35:57 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php on line 4
+[07-May-2023 20:35:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:638
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(638): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 638
+[07-May-2023 20:53:40 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserHome.php on line 4
+[07-May-2023 20:53:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:638
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(638): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserHome.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 638
+[07-May-2023 21:25:40 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php on line 4
+[07-May-2023 21:25:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:638
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(638): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 638
+[07-May-2023 22:16:30 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php on line 4
+[07-May-2023 22:16:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:638
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(638): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 638
+[07-May-2023 22:50:16 UTC] PHP Notice:  Undefined index: UserNumber in /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php on line 4
+[07-May-2023 22:50:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/wynmane1/public_html/ShuttleBus/functions.php:638
+Stack trace:
+#0 /home/wynmane1/public_html/ShuttleBus/functions.php(638): mysqli_query(Object(mysqli), 'SELECT * FROM U...')
+#1 /home/wynmane1/public_html/ShuttleBus/User/UserAccount.php(4): getUserInfo(NULL)
+#2 {main}
+  thrown in /home/wynmane1/public_html/ShuttleBus/functions.php on line 638

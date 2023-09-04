@@ -1,0 +1,247 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap");
+
+/* UTILITIES */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: lato;
+  background-color: #0000;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #d01841;
+  color: #fff;
+}
+
+.nav-links a {
+  color: #fff;
+}
+
+/* LOGO */
+.logo {
+  font-size: 32px;
+}
+
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
+.menu li:hover {
+  background-color: #4c5055;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+
+/*RESPONSIVE NAVBAR MENU STARTS*/
+
+/* CHECKBOX HACK */
+
+input[type="checkbox"] {
+  display: none;
+}
+
+/*HAMBURGER MENU*/
+.hamburger {
+  display: none;
+
+  font-size: 24px;
+
+  user-select: none;
+}
+
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    position: absolute;
+    background-color: #d01841;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+  }
+
+  .menu li:hover {
+    display: inline-block;
+    background-color: #4c5055;
+    transition: 0.3s ease;
+  }
+
+  .menu li + li {
+    margin-top: 12px;
+  }
+
+  input[type="checkbox"]:checked ~ .menu {
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .dropdown {
+    left: 50%;
+    top: 30px;
+    transform: translateX(35%);
+  }
+
+  .dropdown li:hover {
+    background-color: #4c5055;
+  }
+}
+
+/* Typography */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #d01841;
+  border: none;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s ease-out;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.button:focus {
+  outline: none;
+}
+
+/* Gradient button */
+.button-gradient {
+  background-color: #1a73e8;
+  background-image: linear-gradient(90deg, #1a73e8, #5c8bff);
+}
+
+.button-gradient:hover {
+  background-color: #0052cc;
+  background-image: none;
+}
+
+/* Rounded button */
+.button-rounded {
+  border-radius: 2rem;
+  padding: 0.75rem 2rem;
+}
+
+/* Shadow button */
+.button-shadow {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+
+/* Notifications */
+.notification {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+}
+
+.notification.success {
+  background-color: #2ECC40;
+  color: #fff;
+}
+
+/* Containers */
+.container1, .container2 {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+}
+
+.container1 {
+  margin-top: 2rem;
+}
+
+/* Table */
+.routes-table {
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+}
+
+.routes-table th {
+  font-weight: 700;
+  text-align: left;
+  padding: 0.75rem;
+  border-bottom: 0.125rem solid #ddd;
+}
+
+.routes-table td {
+  padding: 0.75rem;
+  border-bottom: 0.0625rem solid #ddd;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container1, .container2 {
+    padding: 1rem;
+  }
+  
+  .routes-table th, .routes-table td {
+    padding: 0.5rem;
+  }
+}

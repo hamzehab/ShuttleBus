@@ -1,0 +1,331 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap");
+
+/* UTILITIES */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: lato;
+  background-color: #0000;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #d01841;
+  color: #fff;
+}
+
+.nav-links a {
+  color: #fff;
+}
+
+/* LOGO */
+.logo {
+  font-size: 32px;
+}
+
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
+.menu li:hover {
+  background-color: #4c5055;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+
+/*RESPONSIVE NAVBAR MENU STARTS*/
+
+/* CHECKBOX HACK */
+
+input[type="checkbox"] {
+  display: none;
+}
+
+/*HAMBURGER MENU*/
+.hamburger {
+  display: none;
+
+  font-size: 24px;
+
+  user-select: none;
+}
+
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    position: absolute;
+    background-color: #d01841;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+  }
+
+  .menu li:hover {
+    display: inline-block;
+    background-color: #4c5055;
+    transition: 0.3s ease;
+  }
+
+  .menu li + li {
+    margin-top: 12px;
+  }
+
+  input[type="checkbox"]:checked ~ .menu {
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .dropdown {
+    left: 50%;
+    top: 30px;
+    transform: translateX(35%);
+  }
+
+  .dropdown li:hover {
+    background-color: #4c5055;
+  }
+}
+
+/* Global styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Main section styles */
+
+.container1 {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cont1txt {
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.current-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.Date {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+#current-date {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="time"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+background-color: #d01841;
+color: white;
+border: none;
+padding: 10px 20px;
+font-size: 18px;
+font-weight: 500;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+background-color: #555;
+}
+
+/* Table styles */
+
+.container2 {
+margin-top: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.subtitle {
+font-size: 20px;
+font-weight: 500;
+text-align: center;
+margin-bottom: 30px;
+}
+
+table {
+width: 90%;
+border-collapse: collapse;
+background-color: white;
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+}
+
+th,
+td {
+padding: 10px;
+text-align: center;
+}
+
+th {
+background-color: #d01841;
+color: white;
+font-size: 18px;
+font-weight: 500;
+}
+
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+tr:hover {
+background-color: #ddd;
+}
+
+.Space {
+height: 1000px;
+}
+
+.updateForm{
+    flex-direction: row;
+}
+
+.updatebutton{
+    padding: 5px; 
+    margin: 10px;
+    color: #fff;
+    background-color: #d01841;
+    border: none;
+}
+
+.updatebutton:hover{
+    background-color: #555;
+}
+
+
+/* Media queries for small screens */
+@media (max-width: 767px) {
+  .container1 {
+    margin-top: 50px;
+  }
+
+  .cont1txt {
+    font-size: 25px;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  table {
+    width: 100%;
+  }
+}
+
+/* Media queries for medium screens */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container1 {
+    margin-top: 80px;
+  }
+
+  .cont1txt {
+    font-size: 30px;
+  }
+
+  form {
+    width: 70%;
+  }
+
+  table {
+    width: 80%;
+  }
+}
+
+/* Media queries for large screens */
+@media (min-width: 1024px) {
+  .container1 {
+    margin-top: 100px;
+  }
+
+  .cont1txt {
+    font-size: 35px;
+  }
+
+  form {
+    width: 50%;
+  }
+
+  table {
+    width: 90%;
+  }
+}

@@ -1,0 +1,209 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap");
+
+/* UTILITIES */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: lato;
+  background-color: #0000;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #d01841;
+  color: #fff;
+}
+
+.nav-links a {
+  color: #fff;
+}
+
+/* LOGO */
+.logo {
+  font-size: 32px;
+}
+
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
+.menu li:hover {
+  background-color: #4c5055;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+
+/*RESPONSIVE NAVBAR MENU STARTS*/
+
+/* CHECKBOX HACK */
+
+input[type="checkbox"] {
+  display: none;
+}
+
+/*HAMBURGER MENU*/
+.hamburger {
+  display: none;
+
+  font-size: 24px;
+
+  user-select: none;
+}
+
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    position: absolute;
+    background-color: #d01841;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+  }
+
+  .menu li:hover {
+    display: inline-block;
+    background-color: #4c5055;
+    transition: 0.3s ease;
+  }
+
+  .menu li + li {
+    margin-top: 12px;
+  }
+
+  input[type="checkbox"]:checked ~ .menu {
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .dropdown {
+    left: 50%;
+    top: 30px;
+    transform: translateX(35%);
+  }
+
+  .dropdown li:hover {
+    background-color: #4c5055;
+  }
+}
+
+
+/* Table styles */
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .left {
+    width: 60%;
+    padding: 10px;
+  }
+  
+  .right {
+    width: 40%;
+    padding: 10px;
+  }
+  
+  .routes-table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 90%;
+  }
+  
+  .routes-table th, .routes-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+.no-routes {
+    font-style: italic;
+}
+
+
+.subtitle {
+font-size: 20px;
+font-weight: 500;
+text-align: center;
+margin-bottom: 30px;
+}
+
+table {
+width: 90%;
+border-collapse: collapse;
+background-color: white;
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+}
+
+th,
+td {
+padding: 10px;
+text-align: center;
+}
+
+th {
+background-color: #d01841;
+color: white;
+font-size: 18px;
+font-weight: 500;
+}
+
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+tr:hover {
+background-color: #ddd;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #d01841;
+  border: none;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s ease-out;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.button:focus {
+  outline: none;
+}
